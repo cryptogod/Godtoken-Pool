@@ -1,7 +1,7 @@
 {
     "coin": "godtoken",
     "symbol": "GDX",
-    "coinUnits": 7000000000000000000,
+    "coinUnits": 7000000,
     "coinDifficultyTarget": 120,
 
     "logging": {
@@ -19,7 +19,7 @@
     "poolServer": {
         "enabled": true,
         "clusterForks": "auto",
-        "poolAddress": "gdx1ZdYz267BJwNu9ccwj7C2gDozp3veobW4sXfgiiGC7Q44k5hQ5o9WywdZ3rGoTsS9NFU8gtbtDNxX6gdasgHE3Jd5xWEjRJ",
+        "poolAddress": "gdx1GmR3ridEyVff3R3QdGLDkcGq6qABUNXWpDK61rtQePPS5RZuPiyVJQLhGi7D9B6efTx8F1EyQUrDeY3bQurw4ZyEi2W8a4",
         "blockRefreshInterval": 1000,
         "minerTimeout": 900,
         "ports": [
@@ -109,19 +109,19 @@
     },
 
     "daemon": {
-        "host": "159.89.96.218",
-        "port": 5364,
+        "host": "127.0.0.1",
+        "port": 5366,
         "legacy": false
     },
 
     "wallet": {
-        "host": "159.89.96.218",
-        "port": 5365
+        "host": "127.0.0.1",
+        "port": 5367
     },
 
     "redis": {
-        "host": "159.89.96.218",
-        "port": 5366
+        "host": "127.0.0.1",
+        "port": 5368
     },
 
     "monitoring": {
